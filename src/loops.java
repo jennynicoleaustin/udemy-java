@@ -17,7 +17,5 @@ public class loops {
 
     // For loop to calculate multiple interest rates with a given value
 
-    public static double calculateInterestLoop() {
 
-    }
 }
