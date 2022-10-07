@@ -3,7 +3,7 @@ public class loops {
     public static void main(String[] args) {
         System.out.println(calculateInterest(100000.0, 2.0));
 
-        //Syntax for for loop
+        //Syntax for loop
        // for(init; termination; increment) {
             // init - the initial value
             // termination - value which loop should stop running
