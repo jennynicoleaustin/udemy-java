@@ -1,0 +1,19 @@
+Encapsulation
+
+-- public variables within a class = access outside the class.
+You can see the inner workings of the variables defined publicly.
+-- allows control outside the class and opens up the application to be altered in ways we do not want.
+
+The right way to create a class is to use encapsulation
+
+declare variables within the class as private.
+-- then the only way to get the values is to use the public getter.
+-- getters are the way we get the information
+include basic validation within the constructor.
+
+-- change the names within the class without effecting the code outside the class
+
+-- protect members ot variables
+
+Polymorphism ---
+

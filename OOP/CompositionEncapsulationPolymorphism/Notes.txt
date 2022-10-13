@@ -1,0 +1,13 @@
+Inheritance vs Composition
+
+-- Inheritance: the subclass IS A superclass.
+is a camry IS A car
+
+Composition
+-- superclass HAS A subclass
+ie a Monitor HAS A resolution - composition
+
+can define that a class HAS multiple classes (vs inheritance where you can only inherit one class at a time)
+
+objects within objects
+

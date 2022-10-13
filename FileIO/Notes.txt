@@ -1,0 +1,17 @@
+:::::Exceptions::::::
+
+Try & Catch & If/Else
+- both can check for an error and gives a code block to execute in case the first code block fails
+try/catch for exceptions
+
+
+::: Stack Trace & Call Stack :::
+
+Usually when catching an exception, you would specify the subclass of exceptions you want to catch
+
+Java handles exceptions by printing a stack trace
+- a print out of all the method calls at the point where the program crashed
+:How to make sense of the stack trace
+-- Start at the bottom and work your way up
+
+ctrl click to see more info in intellij on the method

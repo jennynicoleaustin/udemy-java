@@ -1,0 +1,24 @@
+:::Static:::
+static means that the method belongs to the Main class and not an object of the Main class.
+
+Every line of code that runs in Java must be inside a class.
+
+Main Method
+  The main() method is required and you will see it in every Java program:
+    -- public static void main(String[] args) {} ---
+    Any code inside the main() method will be executed.
+
+OOP
+object-oriented programming is about creating objects that contain both data and methods.
+
+Objects VS Classes
+- So, a class is a template for objects, and an object is an instance of a class.
+
+- When the individual objects are created, they inherit all the variables and methods from the class.
+
+To create an object of Main, specify the class name, followed by the object name, and use the keyword new:
+
+You can also create an object of a class and access it in another class. This is often used for better organization of classes (one class has all the attributes and methods, while the other class holds the main() method (code to be executed)).
+
+You can access attributes by creating an object of the class, and by using the dot syntax (.):
+
