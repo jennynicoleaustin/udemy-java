@@ -15,3 +15,14 @@ Java handles exceptions by printing a stack trace
 -- Start at the bottom and work your way up
 
 ctrl click to see more info in intellij on the method
+
+
+When including a try catch the return should be places within the try block. Returns under the catch are unreachable.
+::Multiple catch
+
+--- you can have more than one catch for a single try; allows you to catch multiple types of exceptions and throw errors for each one.
+
+Catch multiple exceptions via the main method
+- place the method call within a try catch with the catch to include all exceptions with | separating each one
+( | = a byte wise or operator)
+
