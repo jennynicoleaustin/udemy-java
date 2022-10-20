@@ -1,0 +1,8 @@
+::: lambda Expressions :::
+
+(parameter) -> expression -- automatically returns a value
+    like the most basic js arrow function.
+
+(parameter, parameter) -> { code block }
+
+-- can be used as parameters to a function

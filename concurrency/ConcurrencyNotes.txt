@@ -1,0 +1,9 @@
+:::: Concurrency :::::
+- ability to run several programs or several parts of a program in parallel.
+
+:::: Thread ::::
+- the direction or path that is taken while a program is being executed.
+
+
+::: Runnable :::
+- interface whose instances can run as a thread

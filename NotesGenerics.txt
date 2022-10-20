@@ -1,0 +1,6 @@
+:::::: Generics :::::::
+
+<Type> = indicate what type of parameter you want to implement.
+
+ex. new ArrayList<Integer>
+

@@ -1,0 +1,5 @@
+:::: File I/O ::::
+
+- write the data to a file for storage rather than hard coding it within the class.
+
+Can be done using a file writer object.

@@ -1,9 +1,9 @@
-package com.timbuchalka;
-
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+import java.io.*;
+
 
 /**
  * Created by timbuchalka on 2/04/2016.
@@ -11,6 +11,23 @@ import java.util.Set;
 public class Locations implements Map<Integer, Location> {
     private static Map<Integer, Location> locations = new HashMap<Integer, Location>();
 
+// Using a file writer object to write data to a file.
+
+    public static void main(String[] args) {
+        FileWriter locFile = null;
+        try {
+            locFile = new FileWriter("locations.txt");
+            for(Location location : locations.values()) {
+                locFile.write(location.getLocationID() + "," + location.getDescription() + "\n");
+            }
+            locFile.close(); // don't forget to close the output file!
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
+// Static initialization block means that the data "locations" is only created once
     static {
         Map<String, Integer> tempExit = new HashMap<String, Integer>();
         locations.put(0, new Location(0, "You are sitting in front of a computer learning Java",null));
