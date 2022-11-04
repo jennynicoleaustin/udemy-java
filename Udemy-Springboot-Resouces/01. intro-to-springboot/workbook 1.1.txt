@@ -1,0 +1,12 @@
+Ping Command
+- The ping command is used to troubleshoot the connectivity and reachability of a website. Write the following command to ping Google.
+
+-- >> ping google.com
+
+Google has thousands of servers. A DNS request to google.com maps to multiple IP addresses. An IP address belonging to one of the servers is chosen at random.
+
+You currently have an IP address that identifies a server. It can respond to requests made on port 80. Use that information to make a request from your browser.
+
+Per the client-server model, the browser is your client. The machine from a Google data center that responded with a webpage is the server.
+
+In real-life, nobody writes the full address (i.e. 172.217.13.142:80). Instead, we write URLs (i.e. www.google.com). Behind the scenes, a DNS server maps the URL to an address.
